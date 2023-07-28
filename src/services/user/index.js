@@ -1,31 +1,24 @@
 const user = {
 
     msg:
-    `Olá , sou a atendente virtual de 
-    Monique Braga Nail Designer 🎀 \n
-    Como posso ajudar? \n\n
-    1 - Agenda \n
-    2 - Instagram \n
-    3 - Serviços \n
-    4 - Cuidados \n\n  `
+    `sou a atendente virtual de \n 💅🏻 Monique Braga Nail Designer 🎀 \n
+    Como posso ajudar? \n
+    1 - Agenda 📒 \n
+    2 - Instagram 📲 \n
+    3 - Serviços 💅🏻 \n
+    4 - Cuidados 💢 \n
+    !fim - ❌ Encerrar Atendimento ❌\n  
+    ----------------
+    `
     ,
     
-    agenda:
-    `Terça:\n
-    - 09:00\n
-    - 13:00\n
-    Quarta:\n
-    - 09:00\n
-    - 13:00\n
-    Quinta:\n
-    - 09:00\n
-    - 13:00\n
-    Sexta:\n
-    - 09:00\n
-    - 13:00\n
-    Sab:\n
-    - 09:00\n
-    - 13:00\n
+    agenda:    
+    `
+    📖 AGENDA ABERTA: \n 31/07 - 04/08 \n
+    Quarta: 09:00h\n    
+    Quinta: 09:00h ou 13:00h\n    
+    Sexta: 13:00h\n    
+    Sab: 13:00h\n   
     
     escolha um horario e aguarde a confirmação!\n
     *atualizado 27/07/2023`
@@ -56,12 +49,17 @@ const user = {
     `,
 
     pause:
-    'Vou dar uma pausa, volto em 1 minuto!'
+    'Vou dar uma pausa, volto em 1 minuto!\n Para encerar o atendimento digite:\n!fim'
     ,
 
     iBack:
     'Voltei'
     ,
+
+    end:
+    `Encerrando atendimento ! \n
+    estou a disposição é so digitar: !menu
+    `
 }
 
 module.exports = user

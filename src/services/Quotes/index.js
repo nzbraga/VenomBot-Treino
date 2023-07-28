@@ -1,5 +1,5 @@
 
-const elogio = {
+const elogios = {
     00:"Suas unhas estão simplesmente deslumbrantes!",
     01:"Seu sorriso ilumina o ambiente.",
     02:"Seu estilo é absolutamente encantador.",
@@ -62,4 +62,6 @@ const elogio = {
     59:"Você é a personificação da elegância e beleza."
   } 
 
-  module.exports = elogio
+ 
+
+  module.exports = elogios
